@@ -1,0 +1,86 @@
+/* Hero Section */
+.hero-section {
+
+  padding: 100px 0;
+  margin-bottom: 2rem;
+}
+
+.app-container {
+  width: 100vw; /* Full width of the viewport */
+  min-height: 100vh; /* Full height of the viewport */
+  margin: 0; /* Remove any default margins */
+  padding: 0; /* Remove any default padding */
+}
+
+
+/* Card Styles */
+.card {
+  transition: transform 0.3s ease;
+  height: 100%;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+/* Subscription Section */
+.subscription-section {
+  background-color: #f8f9fa;
+  border-radius: 10px;
+  padding: 2rem;
+  margin-top: 3rem;
+}
+
+/* Navigation */
+.navbar {
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+/* Footer */
+footer {
+  background-color: #343a40;
+  color: white;
+  padding: 3rem 0;
+}
+
+footer a {
+  color: white;
+  text-decoration: none;
+}
+
+footer a:hover {
+  color: #007bff;
+}
+
+/* Booking Confirmation */
+.booking-confirmation {
+  max-width: 600px;
+  margin: 0 auto;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.booking-confirmation .booking-details {
+  text-align: left;
+  padding: 20px;
+  background-color: #f8f9fa;
+  border-radius: 8px;
+}
+
+.booking-confirmation .fas {
+  color: #28a745;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+  .hero-section {
+    padding: 50px 0;
+  }
+  
+  .card {
+    margin-bottom: 1rem;
+  }
+  
+  .booking-confirmation {
+    margin: 0 15px;
+  }
+}
